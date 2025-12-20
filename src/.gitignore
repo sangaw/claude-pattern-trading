@@ -151,3 +151,36 @@ data/*.csv
 *.json
 logs/
 config/local-settings.json myenv/
+__pycache__
+
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Build / cache
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / temp
+logs/
+tmp/
+
+# Ignore specific project folders
+data/
+output/
+models/
+
